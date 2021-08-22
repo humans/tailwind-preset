@@ -1,8 +1,3 @@
-// no-js block
-// no-js hidden
-// no-js flex
-// for screen readers
-
 module.exports = {
   theme: {
     margin: {
