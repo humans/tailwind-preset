@@ -13,5 +13,8 @@
   "bugs": {
     "url": "https://github.com/humans/tailwind-preset/issues"
   },
-  "homepage": "https://github.com/humans/tailwind-preset#readme"
+  "homepage": "https://github.com/humans/tailwind-preset#readme",
+  "devDependencies": {
+    "tailwindcss": "^2.2"
+  }
 }
