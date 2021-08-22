@@ -1,6 +1,6 @@
 {
   "name": "@humansph/tailwind-preset",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A tailwindcss preset for the Humans projects.",
   "main": "preset.js",
   "scripts": {},
