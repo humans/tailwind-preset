@@ -6,8 +6,8 @@ const FLEX_DIRECTION = {
 }
 
 const FLEX_WRAP = {
-  '.flex--wrap':         { flexWrap: 'flex-wrap' },
-  '.flex--wrap-reverse': { flexWrap: 'flex-wrap-reverse' },
+  '.flex--wrap':         { flexWrap: 'wrap' },
+  '.flex--wrap-reverse': { flexWrap: 'wrap-reverse' },
   '.flex--nowrap':       { flexWrap: 'nowrap' },
 }
 
