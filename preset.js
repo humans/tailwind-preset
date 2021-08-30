@@ -126,6 +126,10 @@ module.exports = {
       auto: 'auto',
       full: '100%',
     },
+    height: {
+      auto: 'auto',
+      full: '100%',
+    },
     zIndex: {
       wallpaper: 0,
       content: 10,
@@ -156,6 +160,7 @@ module.exports = {
     require('./plugins/utilities/leading'),
     require('./plugins/utilities/tracking'),
     require('./plugins/utilities/width'),
+    require('./plugins/utilities/height'),
     require('./plugins/utilities/z-index'),
   ],
 }
