@@ -2,9 +2,9 @@ const plugin = require('tailwindcss/plugin')
 
 const DISPLAY = {
   '.block':        { display: 'block ' },
-  '.hidden':       { display: 'none' },
   '.inline-block': { display: 'inline-block' },
   '.inline':       { display: 'inline' },
+  '.hidden':       { display: 'none' },
 }
 
 const POSITION = {

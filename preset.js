@@ -146,7 +146,6 @@ module.exports = {
   plugins: [
     require('./plugins/variants/responsive'),
     require('./plugins/variants/no-js'),
-    require('./plugins/base/kitchen-sink'),
     require('./plugins/base/flex'),
     require('./plugins/utilities/grid'),
     require('./plugins/utilities/typography'),
@@ -162,5 +161,6 @@ module.exports = {
     require('./plugins/utilities/width'),
     require('./plugins/utilities/height'),
     require('./plugins/utilities/z-index'),
+    require('./plugins/base/kitchen-sink'),
   ],
 }
