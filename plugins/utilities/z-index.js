@@ -4,7 +4,7 @@ module.exports = plugin(function ({ addUtilities, theme }) {
   const utilities = Object.entries(
     theme('zIndex')
   ).map(function ([name, value]) {
-    return [`.layer--${name}`, { opacity: value }]
+    return [`.layer--${name}`, { zIndex: value }]
   })
 
   addUtilities(Object.fromEntries(utilities), {
